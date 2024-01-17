@@ -8,155 +8,259 @@
     <script src="https://kit.fontawesome.com/fdfd010622.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <nav>
+    <header>
+
+        <!-- Start Nav Section -->
+
+        <section class="header">
             <div class="nav-logo">
                 <img src="Images/Group 40071 (2).png" alt="">
-            <h3 class="nav-title">Ash <span class="nav-title-orange">Travel</span></h3>
+                <h2 class="logo-black">Hero <span class="logo-orange">Travel</span></h2>
             </div>
-            <div class="nav">
+            <nav>
                 <ul>
-                    <li ><a href=""class="nav-home">Home</a></li>
-                    <li></li><a href="">Packages</a></li>
-                    <li></li><a href="">Testimonial</a></li>
-                    <li></li><a href="">Blog</a></li>
-                    <li></li><a href="">Contact</a></li>
-            
+                    <li class="menu-items"><a href="">Home</a></li>
+                    <li class="menu-items"><a href="">Packages</a></li>
+                    <li class="menu-items"><a href="">Testimonial</a></li>
+                    <li class="menu-items"><a href="">Blog</a></li>
+                    <li class="menu-items"><a href="">Contact</a></li>
+                    <li class="humburger"><a href=""><i class="fa-solid fa-bars"></i></a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </section>
 
+        <!-- End Nav Section -->
+
+    
+           <!-- Start Hero Section -->
+
+        <section class="explore">
+            <h2 class="explore-title">Explore Your Travel</h2>
+            <p class="explore-des">
+                Start planning your next trip with experiences,<br> tips and travel guides from other nomads
+            </p>
+            <form class="explore-form">
+                <input type="text" placeholder="Where go">
+                <select name="When" id="When">
+                    <option value="" disabled selected hidden>When</option>
+                    <option value="......">......</option>
+                    <option value="......">......</option>
+                    <option value="......">......</option>
+                </select>
+                <select name="Select Type" id="Select Type">
+                    <option value="" disabled selected hidden>Select Type</option>
+                    <option value="......">......</option>
+                    <option value="......">......</option>
+                    <option value="......">......</option>
+                </select>
+                <button class="submit" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+            </form>
+        </section>
+
+        <!-- End Hero Section -->
+
+           
     </header>
     <main>
-        <!-- explore section -->
-        <main>
-            <section class="explore-world">
-           
-                <h1 class="explore-title">Explore Your Travel</h1>
-                <p class="explore-description">Start planning your next trip with experiences,<br> tips and travel guides from other nomads.</p>
-                <div class="dropdown">
-                    <div class="d">
-                    <input type="search" name="Where you go" class="explore-when" placeholder="where you go">
-                  </div>
-                  <div class="d">
-                    <select class="explore-when">
-                      <option value="" disable selected hidden>when</option>
-                      <option value="">January</option>
-                      <option value="">February</option>
-                      <option value="">March</option>
-                    </select>
-                  </div>
-                  <div class="d">
-                    <select class="explore-when">
-                      <option value="" disable selected hidden>Select Type</option>
-                      <option value="">Summer Holyday</option>
-                      <option value="">Winter Holyday</option>
-                
-                    </select>
-                  </div>
-                  <div class="d"><button class="explore-btn"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button></div>
-                   </div>
         
-        </section>
-<!-- popular section -->
+        
+
+        <!-- popular section -->
         <section class="popular">
             <div class="popular-content">
                 <h2 class="popular-title">Our Popular Tours</h2>
-                <p class="popular-description">If you don’t have any specific desire when it comes to experiences, you can’t go far wrong if you choose one of our most popular tours.
+
+  <div class="popular-description">
+
+                <p>If you don’t have any specific desire when it comes to experiences, you can’t go far wrong if you choose one of our most popular tours.
 
                     Here, the tours have been chosen by you – our guests.</p>
-                    <ul>
+                    
                         <li><h4 class="h4">Classics and hidden gems in Bali</h4>
                             Get up close to the soul of Bali in Ubud, discover Sidemens pristine landscapes, the authentic snorkelling paradise of Amed, and end it all in Lovina with its dark volcanic beaches</li>
                         <li><h4 class="h4">Safari in South Africa</h4>
                             Stay at a pleasant 4* star lodge close to Kruger National Park. Experience the fantastic animal life on a safari in the park and get a safari experience for life.</li>
                         <li><h4 class="h4">Highlights of Vietnam from North to South</h4>Classic tour from north to south with pretty Hanoi, mini cruise in Ha Long Bay, charming Hoi An, the metropolis of Ho Chi Minh City and the lush Mekong Delta. Extend the tour with a beach holiday.</li>
-                    </ul>
+                   
                     <p class="popular-description">We’ve put together all the tours that you have shown most interest in over the past year, spanning regions, price level, length of the tour and content. However, they all have one thing in common: Countless experiences await you there.
 
                         Perhaps one of the tours is the one for you, too?</p>
-                    <button class="popular-btn">Read More</button>
+
+   </div>
+
+                    <button class="btn-primary">Read More</button>
             </div>
-            <div class="popular-img">
+         
                 <img src="Images/Rectangle 4.png" alt=""> 
-            </div>
+        
 
         </section>
 <!-- destination section -->
-        <section class="destination">
-           <div class="d-t">
-            <h2>Choose Your Destination</h2>
-            <p>Ready to plan your next big adventure? <br> We’ve found the holiday destinations that will be on everyone’s lips next year. Discover the best holiday destinations 2024 has to offer. Don’t worry, there are plenty to go around.</p>
-           </div>
-            <div class="row">
-                <div><img src="Images/Rectangle 5.png" alt="">
-                <div class="text-wrap"><h1>Maldives</h1></div></div>
-                <div><img src="Images/Rectangle 8 (1).png" alt=""><div class="text-wrap"><h1>Indonesia</h1></div></div>
-            </div>
-            <div class="row">
-                <div ><img src="Images/Rectangle 6.png" alt=""><div class="text-wrap"><h1>Srilanka</h1></div></div>
-                <div><img src="Images/Rectangle 7.png" alt=""><div class="text-wrap"><h1>North America</h1></div></div>
-                <div><img src="Images/Rectangle 9.png" alt=""><div class="text-wrap"><h1>Khasmir</h1></div></div>
-            </div>
-            <div class="row">
-                <div><img src="Images/Rectangle 11.png" alt=""><div class="text-wrap"><h1>Bangladesh</h1></div></div>
-                <div><img src="Images/Rectangle 10.png" alt=""><div class="text-wrap"><h1>Bandharbhan</h1></div></div>
-            </div>
-            
-        </section>
-    <section class="why">
-        <h2>Why Choose Us</h2>
-        <p id="card-des"> Honest prices - we have the best prices for tours, and a huge selection of destinations will not leave indifferent even avid tourist.</p>
-        <div class="card-container">
-            <div class="card">
+<section class="destination">
+    <h2 class="section-title">Choose Your Destination</h2>
+    <p class="section-des">
+        Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec
+        nibh pellentesque.
+    </p>
+    <div class="destination-container">
+        <div class="Maldives img-box">
+            <h4>Maldives</h4>
+        </div>
+        <div class="Indonesia img-box">
+            <h4>Indonesia</h4>
+        </div>
+        <div class="Srilanka img-box">
+            <h4>Srilanka</h4>
+        </div>
+        <div class="North-America img-box">
+            <h4>North America</h4>
+        </div>
+        <div class="Kashmir img-box">
+            <h4>Kashmir</h4>
+        </div>
+        <div class="Bangladesh img-box">
+            <h4>Bangladesh</h4>
+        </div>
+        <div class="Bandarban img-box">
+            <h4>Bandarban</h4>
+        </div>
+    </div>
+</section>
+
+<!-- why choose -->
+
+Why choose
+
+<section class="why-choose-container">
+        <h2 class="section-title" >Why Choose Us</h2>
+        <p class="section-des"> Honest prices - we have the best prices for tours, and a huge selection of destinations will not leave indifferent even avid tourist.</p>
+
+
+  <div class="card-container"> 
+
+            <div class="card color-1">
+
                 <img src="Images/hotel 1.png" alt="">
-                <div class="card-content">
-                    
-                        <h5>Handpicked Hotels</h5>
-                        <p>We prefer to focus on top-notch destinations that really shine, and include the best luxury hotels and resorts within our collection that we know you'll love. </p>
+                        <h5 class="why-card-title">Handpicked Hotels</h5>
+                        <p  class="why-card-des">We prefer to focus on top-notch destinations that really shine, and include the best luxury hotels and resorts within our collection that we know you'll love. </p>
                 
-                </div>
             </div>
-            <div class="card" id="color1">
+
+
+            <div class="card color-2">
+
                 <img src="Images/map 1.png" alt="">
-                <div class="card-content">
+               
                     
-                        <h5>World Class Service</h5>
-                        <p>World-class customer service. As one of the leading corporate travel agencies worldwide, Clarity leads the TMC Industry with our structured, independently ... </p>
-                
-                </div>
+                        <h5 class="why-card-title">World Class Service</h5>
+                        <p class="why-card-des">World-class customer service. As one of the leading corporate travel agencies worldwide, Clarity leads the TMC Industry with our structured, independently  </p>
+               
             </div>
-            <div class="card" id="color2">
+
+   </div>
+
+  <div class="card-container-2"> 
+
+            <div class="card color-3">
+
                 <img src="Images/price-tag 1.png" alt="">
-                <div class="card-content">
                     
-                        <h5>Best Price Guarantee</h5>
-                        <p>Our price match promise will beat it. We'll match any price for a holiday you've seen at Best at Travel, including sales and discounts - that's a guarentee. </p>
+                        <h5 class="why-card-title">Best Price Guarantee</h5>
+                        <p class="why-card-des">Our price match promise will beat it. We'll match any price for a holiday you've seen at Best at Travel, including sales and discounts - that's a guarentee. </p>
                 
-                </div>
+            
             </div>
         </div>
 
     </section>
+      <!-- Start Deal Section -->
 
-    <!-- deal sec -->
-    <!-- <section class="deal">
-        <div class="deal-icon">
-
-            <img src="Images/Group 39.png" alt="">
-            <div class="icon-sec">
-                <div class="icon"></div>
-                <div class="icon"></div>
-                <div class="icon"></div>
-                <h5>Tour To Satorini</h5>
-                <p>Amet consectetur. Vulputate commodo felis 
-                    molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
-                    <h6>Price: $1300-$1500</h6>
-                    <button>Book Now</button>
+      <section class="deal">
+        <h2 class="section-title">Deals & Discounts</h2>
+        <p class="section-des">
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec
+            nibh pellentesque.
+        </p>
+        <div class="deal-col">
+            <div class="deal-card">
+                <div class="deal-counter">
+                    <div class="per-icon">
+                        <img src="icons/Frame.png" alt="">
+                        <h6>7 Day / 6 Night</h6>
+                    </div>
+                    <div class="per-icon">
+                        <img src="icons/Frame (1).png" alt="">
+                        <h6>Max : 10</h6>
+                    </div>
+                    <div class="per-icon">
+                        <img src="icons/Frame (2).png" alt="">
+                        <h6>Malaysia</h6>
+                    </div>
+                </div>
+                <h4 class="deal-card-title">Tour To Satorini</h4>
+                <p class="deal-card-des">Amet consectetur. Vulputate commodo felis
+                    molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                    adipiscing.</p>
+                <h5 class="deal-card-price">Price: $1300-$1500</h5>
+                <button class="btn-primary">Book Now</button>
             </div>
         </div>
+        <div class="deal-col deal-col-mid">
+            <div class="deal-card">
+                <div class="deal-counter">
+                    <div class="per-icon">
+                        <img src="icons/Frame.png" alt="">
+                        <h6>7 Day / 6 Night</h6>
+                    </div>
+                    <div class="per-icon">
+                        <img src="icons/Frame (1).png" alt="">
+                        <h6>Max : 10</h6>
+                    </div>
+                    <div class="per-icon">
+                        <img src="icons/Frame (2).png" alt="">
+                        <h6>Malaysia</h6>
+                    </div>
+                </div>
+                <h4 class="deal-card-title">Tour To Satorini</h4>
+                <p class="deal-card-des">Amet consectetur. Vulputate commodo felis
+                    molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                    adipiscing.</p>
+                <h5 class="deal-card-price">Price: $1300-$1500</h5>
+                <button class="btn-primary">Book Now</button>
+            </div>
+        </div>
+        <div class="deal-col">
+            <div class="deal-card">
+                <div class="deal-counter">
+                    <div class="per-icon">
+                        <img src="icons/Frame.png" alt="">
+                        <h6>7 Day / 6 Night</h6>
+                    </div>
+                    <div class="per-icon">
+                        <img src="icons/Frame (1).png" alt="">
+                        <h6>Max : 10</h6>
+                    </div>
+                    <div class="per-icon">
+                        <img src="icons/Frame (2).png" alt="">
+                        <h6>Malaysia</h6>
+                    </div>
+                </div>
+                <h4 class="deal-card-title">Tour To Satorini</h4>
+                <p class="deal-card-des">Amet consectetur. Vulputate commodo felis
+                    molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                    adipiscing.</p>
+                <h5 class="deal-card-price">Price: $1300-$1500</h5>
+                <button class="btn-primary">Book Now</button>
+            </div>
+        </div>
+        <div class="deal-btn">
+            <button class="btn-primary">See All Packagesss</button>
+        </div>
+    </section>
 
-    </section> -->
+    <!-- End Deal Section -->
+
+
 
     <section class="popular">
         <div class="popular-content">
@@ -180,51 +284,51 @@
 
     </section>
 
-    <!-- newsletter -->
-    <section class="news-container">
-        <div class="news-content">
-            <h2 class="popular-title">Newsletter</h2>
-            <p class="popular-description">Get your daily dose of travel news & tips. Sign up today!</p>
-            
+      <!-- Start Newsletter Section -->
 
-            <hr>
-
-                    <form action="" class="Contact">
-                        <input type="name" class="news" placeholder="Your Full Name">
-                    <input type="email" name="" id="" class="news" placeholder="Your Email Address">
-                   
-                 <button class="sub-btn">Subscribe</button>
-                    </form>
-                    
-                </div>
-        
-        <div class="news-img ">
-            <img src="Images/Rectangle 8 (1).png" alt="">
-            
+      <section class="news">
+        <div class="news-left">
+            <h4 class="news-left-title">Newsletter</h4>
+            <p class="news-left-des">
+                Get your daily dose of travel news & tips. Sign up today!
+            </p>
+            <form class="news-form">
+                <input type="text" name="" id="" placeholder="Enter your name">
+                <input type="email" name="" id="" placeholder="Enter your email">
+                <input type="submit" value="Subscribe">
+            </form>
         </div>
-        
-
-
+        <div class="news-right">
+            <img src="Images/Rectangle 8 (1).png" alt="">
+        </div>
     </section>
 
-    </main>
-    <footer class="footer">
-        <div class="footer-bar">
-            <div class="nav-logo">
-                <img src="Images/Group 40071 (2).png" alt="">
-            <h3 class="nav-title">Ash <span class="nav-title-orange">Travel</span></h3>
-            </div>
-            <p class="f-des">Stay with us through social media</p>
-        </div>
-        
-        <div class="f-i">
-            <a href=""><img src="Images/Social.png" alt=""></a>
-            
-        </div>
-        <hr>
+    <!-- End Newsletter Section -->
 
-        <p class="f-des">2017, All Rights Reserved.</p>
-    </footer>
-    
+</main>
+<footer>
+
+    <section class="footer">
+        <div class="footer-container">
+            <div class="logo footer-logo">
+                <img src="Images/Group 40071 (2).png" alt="">
+                <h2 class="logo-black">Ash <span class="logo-orange">Travel</span></h2>
+            </div>
+            <p class="footer-paragraph">
+                Explore more. Follow us on our social media platform for inspiration and exclusive offers. Stay connected, Your journey continues with us.
+            </p>
+            <div class="footer-social-icons">
+               <a href=""><img src="Images/Social.png" alt=""></a>
+        
+            </div>
+        </div>
+
+        <p class="copy-right">
+            2024, All Rights Reserved. Developed By Ashraful Huda
+        </p>
+    </section>
+
+    </footer>
 </body>
+
 </html>
